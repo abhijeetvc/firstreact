@@ -70,7 +70,7 @@ function MyApp(){
 }
 
 ReactDOM.render(<MyApp/>,document.getElementById('root'));
-//vinitchaudhari.v2stech@gmail.com
+
 
 
 

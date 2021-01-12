@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import ListDemo from './ListDemo'
+//import Conditional from './Conditional'
 // import App from './App'
 // import App1 from './App1'
 // import MyForm from './MyForm'
@@ -141,6 +143,7 @@ import ReactDOM from 'react-dom';
 //     componentDidMount(){
 //       console.log("Loaded CheckComponent")
 //     }
+
 //     render(){
 //       return(
 //          <div>
@@ -150,35 +153,35 @@ import ReactDOM from 'react-dom';
 //     }
 // }
 
-function MyComps(){
-   return(
-     <div>
-         <ul>
-            <li>India</li>
-            <li>US</li>
-            <li>France</li>
-            <li>Germany</li>
-         </ul>
+// function MyComps(){
+//    return(
+//      <div>
+//          <ul>
+//             <li>India</li>
+//             <li>US</li>
+//             <li>France</li>
+//             <li>Germany</li>
+//          </ul>
 
-         <ol>
-            <li>India</li>
-            <li>US</li>
-            <li>France</li>
-            <li>Germany</li>
-         </ol>
+//          <ol>
+//             <li>India</li>
+//             <li>US</li>
+//             <li>France</li>
+//             <li>Germany</li>
+//          </ol>
 
-         <dl>
-              <dt>India</dt>
-              <dd>India is a nice Country</dd>
+//          <dl>
+//               <dt>India</dt>
+//               <dd>India is a nice Country</dd>
 
-              <dt>US</dt>
-              <dd>US is a nice Country</dd>
-         </dl>
-     </div>
-   )
-}
+//               <dt>US</dt>
+//               <dd>US is a nice Country</dd>
+//          </dl>
+//      </div>
+//    )
+// }
 
-ReactDOM.render(<MyComps/>,document.getElementById('root'));
+ReactDOM.render(<ListDemo/>,document.getElementById('root'));
 
 // ReactDOM.render -> It Renders a react component to a DOM node
 // JSX -> It allows to write HTML like syntax which gets transformed to lightweight JS objects.
